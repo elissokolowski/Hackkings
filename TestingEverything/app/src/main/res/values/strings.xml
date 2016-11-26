@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestingEverything</string>
+    <string name="title_activity_store__main_">Store_Main_Activity</string>
 </resources>
