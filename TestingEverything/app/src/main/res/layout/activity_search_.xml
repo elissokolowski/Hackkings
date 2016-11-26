@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/countries_list"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Search"
+            android:id="@+id/button"
+            android:layout_below="@+id/search" />
+
+    </TableRow>
+
+
+</TableLayout>
