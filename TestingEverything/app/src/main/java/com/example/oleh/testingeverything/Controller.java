@@ -6,7 +6,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Controller {
+
+    static ArrayList<String> alltags = new ArrayList<>();
 
     public Controller(){
 
@@ -34,6 +39,18 @@ public class Controller {
             return false;
 
         }
+
+    }
+
+    public static void addSelectedTags(ArrayList<String> tags){
+        alltags = tags;
+
+
+    }
+
+    public static ArrayList<String> getTags(){
+
+        return alltags;
 
     }
 
