@@ -2,4 +2,7 @@
     <string name="app_name">TestingEverything</string>
 
     <string name="title_activity_store__main_">Store_Main_Activity</string>
+    <string name="item_data">
+Was £20.00 \nNow £15.00 \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Familiares nostros, credo, Sironem dicis et Philodemum, cum optimos viros, tum homines doctissimos. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Hanc ergo intuens debet institutum illud quasi signum absolvere. Sit hoc ultimum bonorum, quod nunc a me defenditur; Erat enim res aperta.
+</string>
 </resources>

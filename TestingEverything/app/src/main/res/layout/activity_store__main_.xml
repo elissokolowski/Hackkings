@@ -23,4 +23,30 @@
 
     <include layout="@layout/content_store__main_" />
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="115dp"
+        android:text="Camera"
+        android:id="@+id/camera123"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="115dp"
+        android:text="QRCode"
+        android:id="@+id/camera1234"
+        android:layout_centerHorizontal="true"
+       />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/photo"/>
+
 </android.support.design.widget.CoordinatorLayout>
